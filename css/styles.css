@@ -4,6 +4,7 @@
 --color-acccent: #ff3400;
 --color-heading: #1b0760;
 --color-body: #918ca4;
+--color-dark-background: #232323;
 }
 
 /* Typography*/
@@ -84,10 +85,17 @@ p {
     
 }
 
+/* Header */
+.page-header {
+    background: var(--color-dark-background);
+    color: #fff;
+    min-height: 100px;
+}
+
 /* Footer */
 
 .page-footer {
-    background-color: #232323;
+    background: var(--color-dark-background);
     color: #fff;
     padding: 20px;
 }
