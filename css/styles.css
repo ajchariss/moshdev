@@ -85,6 +85,14 @@ p {
     
 }
 
+.grid {
+    display: grid;
+}
+
+.grid-1x2 {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
 /* Header */
 .page-header {
     background: var(--color-dark-background);
@@ -92,10 +100,41 @@ p {
     min-height: 100px;
 }
 
+.logo {
+    padding: 5px;
+}
+
+.mainmenu { 
+    padding-right: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.menu-item > a {
+    color: #fff;
+    opacity: .6;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+
+.menu-item > a:hover {
+    opacity: 1;
+}
 /* Footer */
 
 .page-footer {
     background: var(--color-dark-background);
     color: #fff;
     padding: 20px;
+}
+
+.copyright {
+    opacity: .5;
 }
