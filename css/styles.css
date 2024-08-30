@@ -88,16 +88,17 @@ p {
 .grid {
     display: grid;
 }
-
-.grid-1x2 {
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
+@media screen and (min-width: 768px) {
+    .grid-1x2 {
+        grid-template-columns: repeat(2,1fr);       
+    }
 }
 /* Header */
 .page-header {
     background: var(--color-dark-background);
     color: #fff;
     min-height: 100px;
+    align-items: center;
 }
 
 .logo {
