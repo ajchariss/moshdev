@@ -6,6 +6,8 @@
 --color-body: #918ca4;
 }
 
+/* Typography*/
+
 html {
     /* 62.5% of 16px = 10px*/
     font-size: 62.5%;
@@ -74,4 +76,18 @@ p {
         font-size: 3rem;
     
     }
+}
+/* General */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
 }
