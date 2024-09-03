@@ -134,8 +134,12 @@ p {
     background: var(--color-dark-background);
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 .copyright {
+    font-size: 14px;
+    margin: 0;
     opacity: .5;
+    padding: 0;
 }
